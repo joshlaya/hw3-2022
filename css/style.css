@@ -25,7 +25,6 @@ p {
 	font-size: 24px;
 	padding-left: 10px;
 	padding-top: 10px;
-	color: #707070;
 }
 
 img{
@@ -55,7 +54,7 @@ div{
 	line-height: 200%;
 }
 
-.red{
+div.red{
 	background-color: #FF0000;
 	text-align: right;
 	margin-left: 50px;
@@ -63,7 +62,7 @@ div{
 	border-bottom-width: 2px;
 }
 
-.blue div{
+div.blue{
 	background-color: #0000FF;
 	text-align: left;
 	margin-right: 50px;
@@ -71,7 +70,15 @@ div{
 	border-top-width: 2px;
 }
 
-.yellow div{
+div.blue p{
+    color: #C4C4C4;
+}
+
+div.blue h2{
+    color: #c4c4c4;
+}
+
+div.yellow{
 	background-color: #FFFF00;
 	text-align: right;
 	margin-left: 50px;
@@ -79,7 +86,15 @@ div{
 	border-left-width: 5px;
 }
 
-.green div{
+div.yellow p{
+    color: #707070;
+}
+
+div.yellow h2{
+    color: #707070;
+}
+
+div.green{
 	background-color: #00EB00;
 	text-align: left;
 	margin-right: 50px;
